@@ -1,35 +1,40 @@
 *{
 	box-sizing:border-box;
 }
+body {
 
-	#gb{
+color:solid black;
+
+}
+#gb{
 	
 	overflow:auto;
 width:98%;
 height:500px;
-border:0px solid red;
-background-color:#FFF;	
+border:0;
 	}
 div{
 	height: 200px;
 	margin: 15px;
 	margin-bottom: 30px;
 	overflow: auto;
-	border: 3px solid black;
+	border: 1px solid black;
 }
 #a{
-	background-color: gray;
-	color: solid black;
+	background-color:gray;
+	color:solid black;
 }
 #b{
-	background-color: gray;
-	color: solid black;
+	background-color:gray;
+	color:solid black;
 }
 #c{
-	background-color: gray;
-	color: solid black;
+	background-color:gray;
+	color:solid black;
 }
-h1{text-align: center;}
+h1{
+	text-align: center;
+}
 
 p{
 	clear: right;
@@ -38,16 +43,17 @@ p{
 	font-weight: bold;
 }
 div h2{
-	border: 3px solid black;
+	border: 1px solid black;
 	float: right;
 	margin-top: 0px;
-	padding:4px;
-	padding-left: 7px;
-	background-color: #e57364;
-	color: #FFFFFF;
-	padding-right: 7px;
+	padding:3px;
+	padding-left: 5px;
+	background-color: #F44336;
+	padding-right: 5px;
+	color: white;
 
 }
+
 @media (min-width: 992px) {
 div{
 	float: left;
@@ -65,7 +71,7 @@ div{
 }
 @media (max-width: 767px) {
 div{
-	width: 70%;
+	width: 95%;
 	float: center;
 }
 #gb{{
