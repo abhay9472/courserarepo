@@ -90,3 +90,8 @@ div.section {
    
   }
 }
+  #chicken,#beef,#sushi{
+  border: 1px solid black;
+}
+
+
