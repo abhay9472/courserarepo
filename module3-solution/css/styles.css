@@ -86,4 +86,7 @@ div.section {
     border: 1px solid black;
   }
 }
+#chicken,#beef,#sushi{
+  border: 1px solid black;
+}
 
